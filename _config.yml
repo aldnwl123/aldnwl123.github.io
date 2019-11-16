@@ -7,6 +7,7 @@ words_per_minute: 200
 # When testing locally leave blank or use http://localhost:4000
 url                      : "https://aldnwl123.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
+remote_theme : mmistakes/jekyll-theme-hpstr
 
 # Owner/author information
 owner:
@@ -88,4 +89,3 @@ exclude:
   - package.json
   - spec
   - tmp
-  remote_theme : mmistakes/jekyll-theme-hpstr
